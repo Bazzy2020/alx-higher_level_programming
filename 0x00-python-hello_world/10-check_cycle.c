@@ -18,13 +18,13 @@ int check_cycle(listint_t *list)
 	head = list;
 	tail = list;
 
-	while (tail != NULL && tail -> neext != NULL)
+	while (tail != NULL && tail->next != NULL)
 	{
-		HEAD = HEAD ->next;
-		tail = tail -> next->next;
+		HEAD = HEAD->next;
+		tail = tail->next->next;
 
 		if (head == tail)
 			return (1);
 	}
-	return(0);
+	return (0);
 }
