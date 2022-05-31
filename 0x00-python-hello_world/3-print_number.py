@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 number = 98
 x = 'Battery street'
-print(f'{number} Battery street'.format(number))
+print(f'{number} Battery street')
